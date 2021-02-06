@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+   
 }
 .main{
     width: 100%;
@@ -143,7 +144,7 @@ header{
     z-index: 1;
     top: 0;
     left: 0;
-    height: 150px;
+    height: 180px;
     right: 0;
     bottom: 0;
     padding: 0 !important;
@@ -169,11 +170,19 @@ header{
     flex-wrap: wrap;
     margin-top: 50px;
     padding-bottom: 100px;
+    
+    
+    
+    
+    
+    
+    
 }
 .image{
     margin-right: 20px;
     margin-left: 20px;
     position: relative;
     overflow: hidden;
+    
    
 }
