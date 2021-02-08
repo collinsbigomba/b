@@ -52,7 +52,11 @@ background-color: #2f5597;
         }
         .btn4{
             background-color: #2f5597;
-            }
+            } .btn5{
+                background-color: #2f5597;
+                } .btn6{
+                    background-color: #2f5597;
+                    }
             .footer{
              font-weight: lighter;
              font-size: 20px;
@@ -64,11 +68,13 @@ background-color: #2f5597;
            .share{border-bottom: 2px solid #2f5597;}
            .comment{border-top: 2px solid #2f5597;}
            .subsribe{border-top: 2px solid #2f5597;}
+           
            .header{
                text-align: left;
                font-size: 43px;
                color: black;
                font-family: cursive;
+               padding-right: 0;
            }
            .indra{
                width: 50px;
