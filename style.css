@@ -24,7 +24,7 @@ align-items: center;
 }
 .lod img{
     width: 150px;
-    padding-left: 5px;
+   left: 120px;
 }
 .nav-link{
     flex: 1px;
