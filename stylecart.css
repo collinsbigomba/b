@@ -7,7 +7,7 @@
     --secondary:#1f2937;
 }
 body{
-    background: #F3F4F6;
+    background: #f5ebe3;
     color: var(--secondary);
 }
 .container{
