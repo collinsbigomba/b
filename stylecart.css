@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary: #538653;
+    --secondary:#1f2937;
+}
+body{
+    background: #f5ebe3;
+    color: var(--secondary);
+}
+.container{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Montserrat',sans-serif;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container img{
+    max-width: 40vh;
+}
+.login-container{
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container h1{
+    font-size:1rem ;
+    padding: 1rem;
+}
+.input-container{
+    margin: 1rem;
+
+}
+.input-container input{
+    border: none;
+    min-width: 300px;
+    background-color: transparent;
+    height: 2rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid var(--secondary);
+    transition: all 0.3s ease-in;
+}
+.input-container input:focus{
+    border: none;
+    box-sizing: 0 0 0 0;
+    border-bottom: 2px solid var(--primary);
+    transform: translateY(5px);
+
+}
+.input-container input:invalid{
+    border: none;
+    box-sizing: 0 0 0 0;
+    border-bottom: 2px solid #ff4444;
+
+}
+.forgot-pass{
+    font-size: 0.0rem;
+    color: var(--primary);
+    text-decoration: none;
+    margin-left: auto;
+    margin-bottom: 1rem;
+}
+.btn{
+    background-color: rgb(109, 109, 230);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: #fff;
+    font-family: monospace, sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
